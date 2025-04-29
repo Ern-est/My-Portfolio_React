@@ -1,26 +1,26 @@
-Portfolio Website Progress (April 29, 2025)
-Today’s updates focused on polishing the Hero section and overall UI layout:
+# My Portfolio - React
 
-✅ What's Done
-🎨 Full-page Gradient Background
-Applied a custom gradient background using #0a0a23, #1e1e3f, and #020617 for a smooth vertical blend matching the original design.
+This is a modern, responsive developer portfolio built with **React.js**. It showcases my work, skills, and contact information in a visually engaging layout inspired by a custom design.
 
-📱 Hero Section Revamp
+## 🔥 Features
 
-Separated Hero into two sides: content (left) and image (right).
+- Full-screen hero section with animated tech logos
+- Smooth gradient background using custom colors (#0a0a23, #1e1e3f, #020617)
+- Responsive layout optimized for all screen sizes
+- Developer image positioned as a background element for aesthetic appeal
+- Sections include: Hero, About Me, Skills, Projects, and Contact
+- Downloadable CV button styled and centered
 
-Styled the Hero image to appear behind the text (visually like a background).
+## 🛠️ Tech Stack
 
-Increased text size and spacing to reflect the design mockups.
+- React.js
+- CSS (Custom styling)
+- Responsive Web Design principles
 
-Logos (React, Supabase, Flutter, Firebase) now spread evenly across the full Hero width.
+## 📦 Setup
 
-🖼️ Responsive Fixes
+Clone the repository and run:
 
-Prevented the Hero image from overlapping content on small screens.
-
-Ensured content remains readable and well-aligned on all device sizes.
-
-📄 CV Download Button
-
-Created and centered a styled .cv-download button for future use.
+```bash
+npm install
+npm start
