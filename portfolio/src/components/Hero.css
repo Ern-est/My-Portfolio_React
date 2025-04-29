@@ -1,0 +1,120 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    border: 3px solid white;
+    /*background: linear-gradient(to bottom right, #0a0a23, #1e1e3f, #020617);*/
+  }
+  
+  .hero-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+  
+  .hero-logos img {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .hero-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-container {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .hero-left {
+    flex: 1;
+    padding-left: 90px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-left h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  .hero-left h1 span {
+    background-image: linear-gradient(to right, rgb(255, 153, 0), rgb(128, 126, 0), rgb(255, 0, 179));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+  }
+  .hero-left p {
+    font-size: 3.75rem;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-left {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .hero-left h1 {
+      font-size: 2.5rem;
+      letter-spacing: 4px;
+    }
+  
+    .hero-left p {
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+  }
+  
+  .hero-right {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+  }
+  
+  .hero-right img.profile {
+    width: 100%;
+    max-width: 420px;
+    max-height: 420px;
+    object-fit: contain;
+    border-radius: 1.5rem;
+    opacity: 0.35; /* make it backgroundish */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media (min-width: 768px) {
+    .hero-right img.profile {
+      opacity: 1;
+      position: static;
+      transform: none;
+      
+    }
+  }
+  
+  .hero-right img.flutter {
+    margin-top: 1rem;
+    height: 56px;
+    width: 56px;
+  }
+  

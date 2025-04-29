@@ -1,0 +1,45 @@
+.about-section {
+/* matches dark theme */
+    padding: 4rem 2rem;
+    color: white;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  .about-left, .about-right {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .about-left h2,
+  .about-right h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .about-left p,
+  .about-right p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cbd5e1; /* light slate */
+  }
+  
+  .highlight {
+    color: #38bdf8; /* Tailwind's sky-400 (matches Supabase/Flutter highlight) */
+    margin: 0 0.25rem;
+  }
+  
+  .flutter-logo {
+    margin-top: 1rem;
+    width: 40px;
+    height: auto;
+  }
+  
